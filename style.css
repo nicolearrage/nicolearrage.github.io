@@ -1,3 +1,15 @@
+/* Navigation */
+
+.navbar {
+  height: 70px;
+  line-height: 70px;
+  border-radius: 0;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
 .main-content-container {
   position: absolute;
   top: 50%;
@@ -6,33 +18,62 @@
 }
 
 .main-content-img {
-  margin: 0 auto;
+  margin: 0 auto 25px auto;
   display: block;
 }
 
-.notification-text {
-  color: #F7931D;
-  font-family: Lato, sans-serif;
+.main-content-titles {
   text-align: center;
-  font-weight: bold;
+  margin-bottom: 25px;
   font-size: 20px;
 }
 
-.social-media-list {
+.main-content-social {
   text-align: center;
   padding: 0;
 }
 
-.social-media-item {
+.main-content-social-item {
   display: inline-block;
-  font-size: 35px;
+  width: 40px;
+  height: 40px;
   margin: 0 3px;
+  background-color: black;
 }
 
-.social-media-item > a {
-  color: #EF4036;
+.main-page-header {
+  text-align: center;
+  margin-bottom: 25px;
+  margin-top: 35px;
+  font-size: 42px;
 }
 
-.social-media-item > a:hover {
-  color: #D71729;
+.page-container {
+  margin: 0 200px;
+}
+
+
+/* About */
+
+.about-picture {
+  margin-bottom: 16px;
+  width: 100%;
+}
+
+.about-social {
+  padding-left: 0;
+  text-align: center;
+}
+
+.about-social-item {
+  width: 37px;
+  height: 37px;
+  margin: 0 -2px;
+  background-color: black;
+  display: inline-block;
+}
+
+.about-text {
+  font-size: 22px;
+  padding-left: 30px;
 }
