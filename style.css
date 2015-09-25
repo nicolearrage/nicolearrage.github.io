@@ -1,0 +1,38 @@
+.main-content-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-content-img {
+  margin: 0 auto;
+  display: block;
+}
+
+.notification-text {
+  color: #F7931D;
+  font-family: Lato, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.social-media-list {
+  text-align: center;
+  padding: 0;
+}
+
+.social-media-item {
+  display: inline-block;
+  font-size: 35px;
+  margin: 0 3px;
+}
+
+.social-media-item > a {
+  color: #EF4036;
+}
+
+.social-media-item > a:hover {
+  color: #D71729;
+}
